@@ -67,7 +67,8 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-- **Add Classes**
+- **Adds People**
+- **Creates Books**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -89,43 +90,35 @@ To get a local copy up and running follow these simple example steps.
 
 In order to run this project you need:
 
-- Node js installed on your computer
-- Npm Node package manager
-- Terminal
+- Git
+- Ruby
+- A Code editor (VSCODE,...).
+- Google Chrome(or another browser).
+
+You can check if Git is installed by running the following command in the terminal.
+
+```
+$ git --version
+```
+
+Likewise for Ruby installation.
+
+```
+$ ruby --version && irb
 
 ### Setup
 
-Clone this repository by using the command line :
-
-- `git clone https://github.com/jonathanmunamire/School-Library.git`
+Clone the repository using the GitHub link provided below.
 
 ### Install
 
-Install this project with:
+In the terminal, go to your file directory and run this command.
 
-`npm install`
+```
 
-### Usage
+$ git clone git clone https://github.com/jonathanmunamire/School-Library.git
 
-To run the project, execute the following command:
-
-`npm start`
-
-### Run tests
-
-To run tests, run the following command:
-
-`npm test `
-
-### Deployment
-
-You can deploy this project using:
-
-`npm run deploy`
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
+```
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -177,6 +170,5 @@ I would like to thank Microverse for the project.
 
 This project is [MIT](./LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+```
