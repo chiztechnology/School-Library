@@ -64,6 +64,11 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
+- Git
+- Ruby
+- A Code editor (VSCODE,...).
+- Google Chrome(or another browser).
+
 ### Setup
 
 Clone this repository to your desired folder:
