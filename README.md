@@ -1,49 +1,133 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<a name="readme-top"></a>
 
-# School-Library
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
 
-> A library Implemented with OOP concepts of encapsulation and inheritance using objects and classes.
+Modify this file to match your project and remove sections that don't apply.
 
-## Built With
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
 
-- Ruby
+After you're finished please remove all the comments and instructions!
+-->
 
-## Getting Started
+<!-- TABLE OF CONTENTS -->
 
-To get a local copy up and running follow these simple steps.
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 OOP school library <a name="about-project"></a>
+
+> In this project, the school library application is developed. It uses ruby as the main language.
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Ruby</summary>
+  <ul>
+    <li><a href="https://ruby-doc.org/core-3.1.2/">Ruby</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- **Add Classes**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://yourdeployedapplicationlink.com)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-- Git
-- Ruby
-- A Code editor (VSCODE,...).
-- Google Chrome(or another browser).
+In order to run this project you need:
 
-You can check if Git is installed by running the following command in the terminal.
-
-```
-$ git --version
-```
-
-Likewise for Ruby installation.
-
-```
-$ ruby --version && irb
-```
+- Node js installed on your computer
+- Npm Node package manager
+- Terminal
 
 ### Setup
 
-Clone the repository using the GitHub link provided below.
+Clone this repository by using the command line :
+
+- `git clone https://github.com/jonathanmunamire/School-Library.git`
 
 ### Install
 
-In the terminal, go to your file directory and run this command.
+Install this project with:
 
-```
-$ git clone https://github.com/jonathanmunamire/School-Library.git
-```
+`npm install`
 
-## 👥 Authors
+### Usage
+
+To run the project, execute the following command:
+
+`npm start`
+
+### Run tests
+
+To run tests, run the following command:
+
+`npm test `
+
+### Deployment
+
+You can deploy this project using:
+
+`npm run deploy`
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
 
 👤 **Jonathan Munamire**
 
@@ -51,22 +135,48 @@ $ git clone https://github.com/jonathanmunamire/School-Library.git
 - Twitter: [@amanimunamire](https://twitter.com/amanimunamire)
 - LinkedIn: [Jonathan Munamire](https://www.linkedin.com/in/jonathanmunamire/)
 
-## 🤝 Contributing
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Add database**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐️ if you like this project!
+<!-- SUPPORT -->
 
-## Acknowledgments
+## ⭐️ Show your support <a name="support"></a>
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+If you like this project by staring it.
 
-## 📝 License
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank Microverse for the project.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
