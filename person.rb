@@ -1,12 +1,12 @@
 class Nameable
   def correct_name
-    raise NotImplementedError
+    raise NotImplementedError, "#{self.class} has not implemented method '#{__method__}'"
   end
 end
 
 class Person < Nameable
   def initialize(age, name, parent_permission: true)
-    super
+    super()
     @id = Random.rand(1...1000)
     @name = name
     @age = age
@@ -33,7 +33,7 @@ end
 
 class BaseDecorator < Nameable
   def initialize(nameable)
-    super
+    super()
     @nameable = nameable
   end
 
@@ -50,6 +50,6 @@ end
 
 class TrimmerDecorator < BaseDecorator
   def correct_name
-    @nameable.correct_name.chars.slice(0, 9).join
+    @nameable.correct_name.chars.slice(0, 10).join
   end
 end
