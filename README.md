@@ -15,7 +15,6 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -44,16 +43,6 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
-
-- [Live Demo Link not available now](https://yourdeployedapplicationlink.com)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -77,6 +66,42 @@ Clone this repository to your desired folder:
   cd my-folder
   git clone https://github.com/jonathanmunamire/School-Library.git
 ```
+
+### Install
+
+Install this project with:
+
+```sh
+  sudo apt-get install ruby-full
+```
+
+-
+
+### Usage
+
+To run the project, execute the following command:
+
+```sh
+  irb
+```
+
+-
+
+### Run tests
+
+Coming Soon ...
+
+### Deployment
+
+You can deploy this project using:
+
+<!--
+Example:
+
+```sh
+
+```
+ -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
