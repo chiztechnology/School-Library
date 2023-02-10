@@ -13,7 +13,7 @@ class App
   end
 
   def my_menu
-    puts "\n\nPlease choose an option by entering a number:"
+    puts "\nPlease choose an option by entering a number:"
     puts '1 - List all books'
     puts '2 - List all people'
     puts '3 - Create a person'
@@ -53,7 +53,7 @@ class App
 
   def list_people
     @people.each_with_index do |x, index|
-      puts "#{index}) [#{x.class.name}] Name: #{x.name}, ID: #{x.id}, Age: #{x.age}\n"
+      puts "\n#{index}) [#{x.class.name}] Name: #{x.name}, ID: #{x.id}, Age: #{x.age}\n"
     end
   end
 
@@ -63,8 +63,8 @@ class App
     person_id = gets.chomp
 
     @my_rentals.each do |x|
-      me = x if x.person.id == person_id.to_i
-      puts "Date: #{me.date}, Book \"#{me.book.book}\" by #{me.book.author}\n"
+      renter = x if x.person.id == person_id.to_i
+      puts "Date: #{renter.date}, Book: \"#{renter.book.title} by #{renter.book.author}\" Rented by: #{renter.person.name}\n"
     end
     puts
     run
@@ -142,11 +142,11 @@ class App
     puts "\nSelect a person from the following list by number"
     list_people
     person_index = gets.chomp
-    print "\n Date(yyyy/mm/dd): "
+    print "\nDate(yyyy/mm/dd): "
     rental_date = gets.chomp
     new_rental = Rental.new(rental_date, @my_books[book_index.to_i], @people[person_index.to_i])
     @my_rentals.push(new_rental)
-    puts 'Rental added successfully'
+    puts "\n Rental added successfully\n"
     run
   end
 end
