@@ -58,13 +58,13 @@ class App
   end
 
   def list_rental
-    me = nil
+    renter = nil
     print "\nID of person: "
     person_id = gets.chomp
 
     @my_rentals.each do |x|
       renter = x if x.person.id == person_id.to_i
-      puts "Date: #{renter.date}, Book: \"#{renter.book.title} by #{renter.book.author}\" Rented by: #{renter.person.name}\n"
+      puts "Date: #{renter.date}, Book: \"#{renter.book.title} Rented by: #{renter.person.name}\n"
     end
     puts
     run
